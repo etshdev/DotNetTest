@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.BLL", "DotNetTest.BLL\DotNetTest.BLL.csproj", "{591DDE46-1563-487B-B1C6-FD0C1B14663A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.Common", "DotNetTest.Common\DotNetTest.Common.csproj", "{29DDB36A-15E8-441F-9498-A2B14B3A47DD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.DAL", "DotNetTest.DAL\DotNetTest.DAL.csproj", "{78C4FF45-041E-4B87-9BCA-7B416393A053}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.DTO", "DotNetTest.DTO\DotNetTest.DTO.csproj", "{9D0448A4-C5F5-4B4F-88F2-84AE8AB8BE6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.IOC", "DotNetTest.IOC\DotNetTest.IOC.csproj", "{63386045-D960-4F87-8327-CFD9D81C9933}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetTest.Tables", "DotNetTest.Tables\DotNetTest.Tables.csproj", "{7EED40C0-3E2C-4C68-9936-F4E1B3DFC9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetTest.API", "DotNetTest.API\DotNetTest.API.csproj", "{E16BDF83-1BFE-430E-923C-6D9426977811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{591DDE46-1563-487B-B1C6-FD0C1B14663A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{591DDE46-1563-487B-B1C6-FD0C1B14663A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{591DDE46-1563-487B-B1C6-FD0C1B14663A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{591DDE46-1563-487B-B1C6-FD0C1B14663A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DDB36A-15E8-441F-9498-A2B14B3A47DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DDB36A-15E8-441F-9498-A2B14B3A47DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DDB36A-15E8-441F-9498-A2B14B3A47DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DDB36A-15E8-441F-9498-A2B14B3A47DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78C4FF45-041E-4B87-9BCA-7B416393A053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78C4FF45-041E-4B87-9BCA-7B416393A053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78C4FF45-041E-4B87-9BCA-7B416393A053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78C4FF45-041E-4B87-9BCA-7B416393A053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D0448A4-C5F5-4B4F-88F2-84AE8AB8BE6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D0448A4-C5F5-4B4F-88F2-84AE8AB8BE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D0448A4-C5F5-4B4F-88F2-84AE8AB8BE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D0448A4-C5F5-4B4F-88F2-84AE8AB8BE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63386045-D960-4F87-8327-CFD9D81C9933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63386045-D960-4F87-8327-CFD9D81C9933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63386045-D960-4F87-8327-CFD9D81C9933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63386045-D960-4F87-8327-CFD9D81C9933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EED40C0-3E2C-4C68-9936-F4E1B3DFC9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EED40C0-3E2C-4C68-9936-F4E1B3DFC9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EED40C0-3E2C-4C68-9936-F4E1B3DFC9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EED40C0-3E2C-4C68-9936-F4E1B3DFC9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E16BDF83-1BFE-430E-923C-6D9426977811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E16BDF83-1BFE-430E-923C-6D9426977811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E16BDF83-1BFE-430E-923C-6D9426977811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E16BDF83-1BFE-430E-923C-6D9426977811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEABB8E3-F35D-4603-A17B-650FB4E2B2C9}
+	EndGlobalSection
+EndGlobal
